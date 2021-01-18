@@ -20,3 +20,16 @@ aside h2{
   font-style: normal;
   text-align: center;
 }
+
+footer{
+  color: white;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer li{
+  list-style-type: none;
+}
