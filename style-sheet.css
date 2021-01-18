@@ -13,7 +13,12 @@ h1{
   margin: 0;
 }
 
-
+h2{
+  font-family: "cooper-black-std",serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
 
 header aside{
   background-color: #FC5456;
@@ -50,9 +55,6 @@ nav{
 }
 
 #reinsurance h2{
-  font-family: "cooper-black-std",serif;
-  font-weight: 400;
-  font-style: normal;
   color: #FC5456;
 }
 
