@@ -23,13 +23,15 @@ aside h2{
 
 footer{
   color: white;
+  background-color: #FC5456;
+}
+
+footer li{
+  list-style-type: none;
 }
 
 footer a{
   text-decoration: none;
   color: white;
-}
-
-footer li{
   list-style-type: none;
 }
