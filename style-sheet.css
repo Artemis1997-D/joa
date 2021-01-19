@@ -71,8 +71,6 @@ nav{
   width: 18%;
 }
 
-
-
 nav svg, a{
   cursor: pointer;
 }
@@ -85,6 +83,51 @@ nav svg, a{
   bottom: 6px;
   right: 26px;
 }
+
+#image-slider{
+  display: flex;
+  width: 100%;
+}
+
+.image-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  color: white;
+  height: 517px;
+  width: 100%;
+}
+
+.image-container button{
+  height: 130px;
+  width: 130px;
+  font-family: "futura-pt-bold",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 3%;
+  background-color: #FC5456;
+  color: white;
+  font-size: 60%;
+  border: none;
+}
+
+#wedding{
+  background-image: url(nick-karvounis-8WODX7nO2JE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#summer{
+  display: none;
+  background-image: url(kreshnik-ceka-gAf-S_4a9Wg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 
 @media (min-width: 768px){
   aside h2{
