@@ -151,6 +151,112 @@ nav svg, a{
   width: 80%;
 }
 
+#favorites{
+  color: #FC5456;
+}
+
+#favorites h2{
+  font-size: 28px;
+}
+
+#favorites h3{
+  font-family: "cooper-black-std",serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 10%;
+  font-size: 18px;
+}
+
+#favorites article{
+  display: flex;
+  flex-direction: column;
+  background-color: #FEFBF0;
+  height: 280px;
+  width: 200px;
+}
+
+#favorites button{
+  position: relative;
+  top: 205px;
+  left: 55px;
+  background-color: #FFADAE;
+  border: none;
+  color: white;
+  font-family: "futura-pt-bold",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 50%;
+  width: 82.22px;
+  height: 82.22px;
+  font-size: 15px;
+
+}
+
+#favorites .odd{
+  margin: 5% 10%;
+}
+
+#favorites .even{
+  margin: 20% 28%;
+}
+
+#product1{
+  background-image: url(Capture_d_écran_2021-01-15_à_16.36.58-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#product2{
+  background-image: url(bracelet-pandora-argent-598619c00-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#product3{
+  background-image: url(Capture_d_écran_2021-01-15_à_11.56.59-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#product4{
+  background-image: url(Capture_d_écran_2021-01-15_à_11.53.24-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#product5{
+  background-image: url(Capture_d_écran_2021-01-15_à_11.30.41-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#product6{
+  background-image: url(Capture_d_écran_2021-01-15_à_11.34.46-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#product7{
+  background-image: url(Capture_d_écran_2021-01-15_à_11.38.59-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#product8{
+  background-image: url(bague-ethnique-530-15991-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#product9{
+  background-image: url(Capture_d_écran_2021-01-15_à_11.42.39-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+}
+
 @media (min-width: 768px){
   aside h2{
     font-size: 150%;
@@ -175,7 +281,13 @@ nav svg, a{
 }
 
 @media (max-width: 767px){
-  .menu-bigscreen{
+  .big-screen{
+    display: none;
+  }
+}
+
+@media (max-width: 320px){
+  #favorites .big-screen{
     display: none;
   }
 }
