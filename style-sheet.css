@@ -115,19 +115,41 @@ nav svg, a{
   border: none;
 }
 
+.image-container button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #FC5456;
+}
+
 #wedding{
-  background-image: url(nick-karvounis-8WODX7nO2JE-unsplash.jpg);
+  background-image: radial-gradient(#FFFFFF, #FF6466), url(nick-karvounis-8WODX7nO2JE-unsplash.jpg);
   background-size: cover;
   background-position: center;
+  background-blend-mode: soft-light;
 }
 
 #summer{
   display: none;
-  background-image: url(kreshnik-ceka-gAf-S_4a9Wg-unsplash.jpg);
+  background-image: radial-gradient(#FFFFFF, #FF6466), url(kreshnik-ceka-gAf-S_4a9Wg-unsplash.jpg);
   background-size: cover;
   background-position: center;
+  background-blend-mode: soft-light;
 }
 
+#brief-joa{
+  font-family: "futura-pt",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+  text-align: center;
+  width: 80%;
+}
 
 @media (min-width: 768px){
   aside h2{
@@ -144,11 +166,24 @@ nav svg, a{
   #menu a{
     font-size: 130%;
   }
-  
+  .image-container{
+    height: 680px;
+  }
+  .image-container h2{
+    font-size: 200%;
+  }
 }
 
 @media (max-width: 767px){
   .menu-bigscreen{
     display: none;
+  }
+}
+
+@media(min-width: 1024px){
+  #brief-joa{
+    width: 40%;
+    font-size: 25px;
+    line-height: 33px;
   }
 }
