@@ -6,6 +6,10 @@ body{
   box-sizing: border-box;
 }
 
+button{
+  outline: none;
+}
+
 h2{
   font-family: "cooper-black-std",serif;
   font-weight: 400;
@@ -126,7 +130,7 @@ nav a{
 }
 
 #wedding{
-  background-image: radial-gradient(#FFFFFF, #FF6466), url(nick-karvounis-8WODX7nO2JE-unsplash.jpg);
+  background-image: radial-gradient(#FFFFFF, #FF6466), url(wedding.jpg);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -134,7 +138,7 @@ nav a{
 
 #summer{
   display: none;
-  background-image: radial-gradient(#FFFFFF, #FF6466), url(kreshnik-ceka-gAf-S_4a9Wg-unsplash.jpg);
+  background-image: radial-gradient(#FFFFFF, #FF6466), url(watermelon.jpg);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -161,8 +165,8 @@ nav a{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 80%;
   margin: auto;
+  width: 80%;
 }
 
 #favorites h2{
@@ -189,9 +193,10 @@ nav a{
   height: 280px;
   width: 200px;
   margin: 5% 2% 18%;
+  box-shadow: 5px 5px 8px lightgray; 
 }
 
-#favorites button{
+#favorites article button{
   position: relative;
   top: 175px;
   left: 55px;
@@ -205,7 +210,7 @@ nav a{
   width: 90px;
   height: 90px;
   font-size: 15px;
-
+  box-shadow: 5px 5px 8px lightgray
 }
 
 #favorites a{
@@ -214,57 +219,94 @@ nav a{
 }
 
 #product1{
-  background-image: url(Capture_d_écran_2021-01-15_à_16.36.58-removebg-preview.png);
+  background-image: url(bague-inspiration-celtique.png);
   background-size: cover;
   background-position: 50% 20px;
 }
 
 #product2{
-  background-image: url(bracelet-pandora-argent-598619c00-removebg-preview.png);
+  background-image: url(bracelet-pandora-harrypotter.png);
   background-size: cover;
   background-position: 50% 30px;
 }
 
 #product3{
-  background-image: url(Capture_d_écran_2021-01-15_à_11.56.59-removebg-preview.png);
+  background-image: url(montre-homme-cluse.png);
   background-size: cover;
   background-position: 80% 50%;
 }
 
 #product4{
-  background-image: url(Capture_d_écran_2021-01-15_à_11.53.24-removebg-preview.png);
+  background-image: url(collier-guess-getlucky.png);
   background-size: cover;
   background-position: center;
 }
 
 #product5{
-  background-image: url(Capture_d_écran_2021-01-15_à_11.30.41-removebg-preview.png);
+  background-image: url(montre-fossil-femme.png);
   background-size: cover;
   background-position: 50% 35px;
 }
 
 #product6{
-  background-image: url(Capture_d_écran_2021-01-15_à_11.34.46-removebg-preview.png);
+  background-image: url(boucles-oreilles-coeurdelion.png);
   background-size: cover;
   background-position: 50% 30px;
 }
 
 #product7{
-  background-image: url(Capture_d_écran_2021-01-15_à_11.38.59-removebg-preview.png);
+  background-image: url(ensemble-coeur-de-lion.png);
   background-size: cover;
   background-position: 50% 30px;
 }
 
 #product8{
-  background-image: url(bague-ethnique-530-15991-removebg-preview.png);
+  background-image: url(bague-ethnique.png);
   background-size: cover;
   background-position: 50% 25px;
 }
 
 #product9{
-  background-image: url(Capture_d_écran_2021-01-15_à_11.42.39-removebg-preview.png);
+  background-image: url(montre-calvinklein.png);
   background-size: cover;
   background-position: 50% 50px;
+}
+
+#all-products{
+  text-align: center;
+  height: 130px;
+  width: 130px;
+  font-family: "futura-pt-bold",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10%;
+  background-color: #FC5456;
+  color: white;
+  font-size: 20px;
+  border: none;
+
+}
+
+@media (max-width: 425px){
+  #favorites .big-screen{
+    display: none;
+  }
+  #favorites article{
+    margin: 15% auto;
+  }
+  #favorites .odd{
+   position: relative;
+   right: 10%;
+  }
+  #favorites .even{
+    position: relative;
+    left: 10%;
+   }
+   .big-screen{
+    display: none;
+  }
 }
 
 @media (min-width: 768px){
@@ -289,46 +331,29 @@ nav a{
     font-size: 200%;
   }
   #favorites{
-    width: 60%;
+    width: 70%;
   }
   #favorites h2{
     font-size: 50px;
   }
   #favorites article{
-    margin: 5% 2% 8%;
-  }
-  
-  
-}
-
-@media (max-width: 767px){
-  .big-screen{
-    display: none;
+    margin: 5% 1% 8%;
   }
 }
 
-@media (max-width: 320px){
-  #favorites .big-screen{
-    display: none;
-  }
-  #favorite article{
-    margin: 20% auto;
-  }
-  #favorites .odd{
-   position: relative;
-   right: 10%;
-  }
-  #favorites .even{
-    position: relative;
-    left: 10%;
-   }
-
-}
-
-@media(min-width: 1024px){
+@media (min-width: 1024px){
   #brief-joa{
-    width: 40%;
+    width: 50%;
     font-size: 25px;
     line-height: 33px;
+  }
+  #favorites{
+    width: 70%;
+  }
+}
+
+@media (min-width: 1025px){
+  #favorites{
+    width: 60%;
   }
 }
