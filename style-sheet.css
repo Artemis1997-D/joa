@@ -153,10 +153,17 @@ nav svg, a{
 
 #favorites{
   color: #FC5456;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
 }
 
 #favorites h2{
   font-size: 28px;
+  width: 100%;
 }
 
 #favorites h3{
@@ -168,6 +175,7 @@ nav svg, a{
   position: relative;
   top: 10%;
   font-size: 18px;
+  margin: 5%;
 }
 
 #favorites article{
@@ -176,11 +184,12 @@ nav svg, a{
   background-color: #FEFBF0;
   height: 280px;
   width: 200px;
+  margin: 5% 2% 18%;
 }
 
 #favorites button{
   position: relative;
-  top: 205px;
+  top: 175px;
   left: 55px;
   background-color: #FFADAE;
   border: none;
@@ -189,36 +198,33 @@ nav svg, a{
   font-weight: 700;
   font-style: normal;
   border-radius: 50%;
-  width: 82.22px;
-  height: 82.22px;
+  width: 90px;
+  height: 90px;
   font-size: 15px;
 
 }
 
-#favorites .odd{
-  margin: 5% 10%;
-}
-
-#favorites .even{
-  margin: 20% 28%;
+#favorites a{
+  text-decoration: none;
+  color: white;
 }
 
 #product1{
   background-image: url(Capture_d_écran_2021-01-15_à_16.36.58-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 20px;
 }
 
 #product2{
   background-image: url(bracelet-pandora-argent-598619c00-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 30px;
 }
 
 #product3{
   background-image: url(Capture_d_écran_2021-01-15_à_11.56.59-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: 80% 50%;
 }
 
 #product4{
@@ -230,31 +236,31 @@ nav svg, a{
 #product5{
   background-image: url(Capture_d_écran_2021-01-15_à_11.30.41-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 35px;
 }
 
 #product6{
   background-image: url(Capture_d_écran_2021-01-15_à_11.34.46-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 30px;
 }
 
 #product7{
   background-image: url(Capture_d_écran_2021-01-15_à_11.38.59-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 30px;
 }
 
 #product8{
   background-image: url(bague-ethnique-530-15991-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 25px;
 }
 
 #product9{
   background-image: url(Capture_d_écran_2021-01-15_à_11.42.39-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 50px;
 }
 
 @media (min-width: 768px){
@@ -278,6 +284,13 @@ nav svg, a{
   .image-container h2{
     font-size: 200%;
   }
+  #favorites{
+    width: 60%;
+  }
+  #favorites article{
+    margin: 5% 2% 8%;
+  }
+  
 }
 
 @media (max-width: 767px){
