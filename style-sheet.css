@@ -71,7 +71,11 @@ nav{
   width: 18%;
 }
 
-nav svg, a{
+nav svg{
+  cursor: pointer;
+}
+
+nav a{
   cursor: pointer;
 }
 
@@ -287,9 +291,13 @@ nav svg, a{
   #favorites{
     width: 60%;
   }
+  #favorites h2{
+    font-size: 50px;
+  }
   #favorites article{
     margin: 5% 2% 8%;
   }
+  
   
 }
 
@@ -303,6 +311,18 @@ nav svg, a{
   #favorites .big-screen{
     display: none;
   }
+  #favorite article{
+    margin: 20% auto;
+  }
+  #favorites .odd{
+   position: relative;
+   right: 10%;
+  }
+  #favorites .even{
+    position: relative;
+    left: 10%;
+   }
+
 }
 
 @media(min-width: 1024px){
