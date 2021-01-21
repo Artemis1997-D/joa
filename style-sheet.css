@@ -367,6 +367,16 @@ nav a{
   color: #FC5456;
 }
 
+#reinsurance{
+  color: #FC5456;
+  background-color: #FEFBF0;
+}
+
+#reinsurance h2{
+  font-size: 20px;
+  margin: 3%;
+  padding: 5%;
+}
 
 
 
@@ -461,6 +471,11 @@ nav a{
     bottom: 5%;
   }
   
+  #reinsurance h2{
+    font-size: 30px;
+    padding: 1%;
+    margin: 1%;
+  }
 }
 
 @media (min-width: 1024px){
@@ -499,6 +514,15 @@ nav a{
     position: relative;
     left: 25%;
     bottom: 2%;
+  }
+  #reinsurance{
+    display: flex;
+    justify-content: space-around;
+  }
+  #reinsurance h2{
+    font-size: 23px;
+    padding: 0;
+    margin: 1%;
   }
 }
 
