@@ -18,7 +18,6 @@ h2{
   font-style: normal;
   margin: 0;
   text-align: center;
-  font-display: swap;
 }
 
 .annonces{
@@ -57,7 +56,6 @@ nav{
   font-style: normal;
   width: 80%;
   height: auto;
-  font-display: swap;
 }
 
 .menu-desktop a{
@@ -94,7 +92,6 @@ nav a{
   position: relative;
   bottom: 6px;
   right: 26px;
-  font-display: swap;
 }
 
 #image-slider{
@@ -126,7 +123,6 @@ nav a{
   color: white;
   font-size: 60%;
   border: none;
-  font-display: swap;
 }
 
 .image-container button:hover{
@@ -159,7 +155,6 @@ nav a{
   margin: 5% auto;
   text-align: center;
   width: 80%;
-  font-display: swap;
 }
 
 .favorites{
@@ -187,7 +182,6 @@ nav a{
   top: 10%;
   font-size: 18px;
   margin: 5%;
-  font-display: swap;
 }
 
 .product{
@@ -215,7 +209,6 @@ nav a{
   height: 90px;
   font-size: 15px;
   box-shadow: 5px 5px 8px lightgray;
-  font-display: swap;
 }
 
 .product a{
@@ -296,7 +289,6 @@ nav a{
   font-size: 20px;
   border: none;
   box-shadow: 5px 5px 10px lightgrey;
-  font-display: swap;
 }
 
 #all-products:hover{
@@ -336,7 +328,6 @@ nav a{
   color: #FC5456;
   margin: 5% auto;
   text-align: center;
-  font-display: swap;
 }
 
 .interview-text p{
@@ -347,7 +338,6 @@ nav a{
   font-weight: 400;
   font-style: normal;
   line-height: 25px;
-  font-display: swap;
 }
 
 .interview-text span{
@@ -371,7 +361,6 @@ nav a{
   font-size: 20px;
   border: none;
   box-shadow: 5px 5px 10px lightgrey;
-  font-display: swap;
 }
 
 .interview-text button:hover{
@@ -420,7 +409,6 @@ nav a{
   font-style: italic;
   width: 90%;
   margin: auto;
-  font-display: swap;
 }
 
 #back-to-top-btn{
@@ -433,7 +421,6 @@ nav a{
   font-weight: 700;
   font-style: normal;
   margin: 5% 0;
-  font-display: swap;
 }
 
 .reinsurance{
@@ -458,7 +445,6 @@ footer h3{
   font-style: normal;
   margin: 0;
   padding-top: 3%;
-  font-display: swap;
 }
 
 footer li{
@@ -466,7 +452,6 @@ footer li{
   font-family: "futura-pt",sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
 }
 
 footer a{
@@ -483,7 +468,6 @@ footer a:hover{
   font-family: "futura-pt-bold",sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
 
 #newsletter input{
@@ -498,7 +482,6 @@ footer a:hover{
   font-weight: 400;
   font-style: normal;
   outline: none;
-  font-display: swap;
 }
 
 #newsletter button{
@@ -512,7 +495,6 @@ footer a:hover{
   position: relative;
   left: 70%;
   outline: none;
-  font-display: swap;
 }
 
 #newsletter button:hover{
