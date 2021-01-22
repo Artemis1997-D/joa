@@ -6,6 +6,7 @@ body{
   box-sizing: border-box;
 }
 
+/* */
 button{
   outline: none;
 }
@@ -131,14 +132,6 @@ nav a{
 
 #wedding{
   background-image: radial-gradient(#FFFFFF, #FF6466), url(wedding.webp);
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: soft-light;
-}
-
-#summer{
-  display: none;
-  background-image: radial-gradient(#FFFFFF, #FF6466), url(watermelon.webp);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -372,15 +365,57 @@ nav a{
 }
 
 #clients-posts{
+  display:flex;
+  width: 100%;
+  flex-direction: column;
   background-color: #ffe5e4;
   height: 500px;
-
 }
 
 #clients-posts h2{
   color: #FC5456;
   font-size: 28px;
   padding: 5%;
+}
+
+.image-slider{
+  display:flex;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  overflow: scroll;
+}
+
+.slides{
+  width: 200px;
+  height: 280px;
+  margin: 0 5%;
+}
+
+.slides img{
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.slides blockquote{
+  font-family: "futura-pt-condensed",sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  width: 90%;
+  margin: auto;
+}
+
+#back-to-top-btn{
+  width: 100%;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  color: #FC5456;
+  font-family: "futura-pt-bold",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 5% 0;
 }
 
 #reinsurance{
@@ -460,9 +495,10 @@ footer a:hover{
   padding: 0;
 }
 
-#icon-network a{
-  margin: 3%;
+#icon-network svg{
+  padding: 5% 2%;
 }
+
 
 
 @media (max-width: 425px){
@@ -506,7 +542,7 @@ footer a:hover{
   #menu{
     justify-content: center;
     position: relative;
-    left: 8%;
+    left: 10%;
   }
   #menu a{
     font-size: 130%;
@@ -590,6 +626,13 @@ footer a:hover{
   #newsletter button{
     bottom: 35px;
   }
+  #clients-posts{
+    height: 600px;
+  }
+  .image-slider{
+    width: 80%;
+    margin-right: 0;
+  }
 
 }
 
@@ -640,6 +683,10 @@ footer a:hover{
   #newsletter button{
     bottom: 40px;
   }
+  .image-slider{
+    width: 70%;
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 1025px){
@@ -676,5 +723,12 @@ footer a:hover{
   }
   #newsletter button{
     bottom: 45px;
+  }
+  #clients-posts{
+    height: 700px;
+  }
+  .image-slider{
+    width: 80%;
+    margin-right: 0;
   }
 }
