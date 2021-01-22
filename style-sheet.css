@@ -7,6 +7,7 @@ body{
 }
 
 /* */
+
 button{
   outline: none;
 }
@@ -17,16 +18,17 @@ h2{
   font-style: normal;
   margin: 0;
   text-align: center;
+  font-display: swap;
 }
 
-header aside{
+.annonces{
   background-color: #FC5456;
   color: white;
   width: 100%;
   height: auto;
 }
 
-aside h2{
+.annonces h2{
   font-size: 100%;
   padding: 1%;
 }
@@ -39,14 +41,14 @@ nav{
   align-items: center;
 }
 
-#menu-burger{
+.menu-mobile{
   display: flex;
   justify-content: center;
   width: 20%;
 
 }
 
-#menu{
+.menu-desktop{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,20 +57,21 @@ nav{
   font-style: normal;
   width: 80%;
   height: auto;
+  font-display: swap;
 }
 
-#menu a{
+.menu-desktop a{
   text-decoration: none;
   margin: 3%;
   font-size: 120%;
   color: black;
 }
 
-#menu a:hover{
+.menu-desktop a:hover{
   color: #FC5456;
 }
 
-#search-account-bag{
+.search-account-bag{
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
@@ -84,13 +87,14 @@ nav a{
   cursor: pointer;
 }
 
-#number-articles{
+.number-articles{
   font-family: "futura-pt-bold",sans-serif;
   font-weight: 700;
   font-style: normal;
   position: relative;
   bottom: 6px;
   right: 26px;
+  font-display: swap;
 }
 
 #image-slider{
@@ -122,6 +126,7 @@ nav a{
   color: white;
   font-size: 60%;
   border: none;
+  font-display: swap;
 }
 
 .image-container button:hover{
@@ -137,11 +142,11 @@ nav a{
   background-blend-mode: soft-light;
 }
 
-#hero-image h2{
+.hero-image h2{
   text-shadow: 0.5px 0.5px 5px black;
 }
 
-#brief-joa{
+.brief-joa{
   font-family: "futura-pt",sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -154,9 +159,10 @@ nav a{
   margin: 5% auto;
   text-align: center;
   width: 80%;
+  font-display: swap;
 }
 
-#favorites{
+.favorites{
   color: #FC5456;
   display: flex;
   flex-direction: row;
@@ -166,12 +172,12 @@ nav a{
   width: 80%;
 }
 
-#favorites h2{
+.favorites h2{
   font-size: 28px;
   width: 100%;
 }
 
-#favorites h3{
+.favorites h3{
   font-family: "cooper-black-std",serif;
   font-weight: 400;
   font-style: normal;
@@ -181,9 +187,10 @@ nav a{
   top: 10%;
   font-size: 18px;
   margin: 5%;
+  font-display: swap;
 }
 
-#favorites article{
+.product{
   display: flex;
   flex-direction: column;
   background-color: #FEFBF0;
@@ -193,7 +200,7 @@ nav a{
   box-shadow: 5px 5px 8px lightgray; 
 }
 
-#favorites article button{
+.product button{
   position: relative;
   top: 175px;
   left: 55px;
@@ -207,12 +214,17 @@ nav a{
   width: 90px;
   height: 90px;
   font-size: 15px;
-  box-shadow: 5px 5px 8px lightgray
+  box-shadow: 5px 5px 8px lightgray;
+  font-display: swap;
 }
 
-#favorites a{
+.product a{
   text-decoration: none;
   color: white;
+}
+
+.product a:hover{
+  color: black;
 }
 
 #product1{
@@ -284,6 +296,7 @@ nav a{
   font-size: 20px;
   border: none;
   box-shadow: 5px 5px 10px lightgrey;
+  font-display: swap;
 }
 
 #all-products:hover{
@@ -291,11 +304,11 @@ nav a{
   color: #FC5456;
 }
 
-#personalization{
+.personalization{
   margin: 10% auto 0;
 }
 
-#interview-img{
+.interview-img{
   width: 290px;
   height: 385px;
   background-image: url(Images/interview.webp);
@@ -305,7 +318,7 @@ nav a{
   left: 5%;
 }
 
-#interview-text{
+.interview-text{
   display: flex;
   flex-direction: column;
   width: 189px;
@@ -315,7 +328,7 @@ nav a{
   bottom: 130px;
 }
 
-#interview-text h1{
+.interview-text h1{
   font-size: 20px;
   font-family: "cooper-black-std",serif;
   font-weight: 400;
@@ -323,9 +336,10 @@ nav a{
   color: #FC5456;
   margin: 5% auto;
   text-align: center;
+  font-display: swap;
 }
 
-#interview-text p{
+.interview-text p{
   width: 90%;
   margin: 1% auto;
   text-align: center;
@@ -333,14 +347,14 @@ nav a{
   font-weight: 400;
   font-style: normal;
   line-height: 25px;
-
+  font-display: swap;
 }
 
-#interview-text span{
+.interview-text span{
   color: #FC5456;
 }
 
-#interview-text button{
+.interview-text button{
   position: relative;
   left: 60%;
   bottom: 10%;
@@ -357,14 +371,15 @@ nav a{
   font-size: 20px;
   border: none;
   box-shadow: 5px 5px 10px lightgrey;
+  font-display: swap;
 }
 
-#interview-text button:hover{
+.interview-text button:hover{
   background-color: white;
   color: #FC5456;
 }
 
-#clients-posts{
+.clients-posts{
   display:flex;
   width: 100%;
   flex-direction: column;
@@ -372,7 +387,7 @@ nav a{
   height: 500px;
 }
 
-#clients-posts h2{
+.clients-posts h2{
   color: #FC5456;
   font-size: 28px;
   padding: 5%;
@@ -396,6 +411,7 @@ nav a{
   width: 200px;
   height: 250px;
   object-fit: cover;
+  box-shadow: 5px 5px 8px black;
 }
 
 .slides blockquote{
@@ -404,6 +420,7 @@ nav a{
   font-style: italic;
   width: 90%;
   margin: auto;
+  font-display: swap;
 }
 
 #back-to-top-btn{
@@ -416,14 +433,15 @@ nav a{
   font-weight: 700;
   font-style: normal;
   margin: 5% 0;
+  font-display: swap;
 }
 
-#reinsurance{
+.reinsurance{
   color: #FC5456;
   background-color: #FEFBF0;
 }
 
-#reinsurance h2{
+.reinsurance h2{
   font-size: 20px;
   padding: 5%;
 }
@@ -440,6 +458,7 @@ footer h3{
   font-style: normal;
   margin: 0;
   padding-top: 3%;
+  font-display: swap;
 }
 
 footer li{
@@ -447,6 +466,7 @@ footer li{
   font-family: "futura-pt",sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 footer a{
@@ -463,6 +483,7 @@ footer a:hover{
   font-family: "futura-pt-bold",sans-serif;
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 #newsletter input{
@@ -477,6 +498,7 @@ footer a:hover{
   font-weight: 400;
   font-style: normal;
   outline: none;
+  font-display: swap;
 }
 
 #newsletter button{
@@ -490,6 +512,7 @@ footer a:hover{
   position: relative;
   left: 70%;
   outline: none;
+  font-display: swap;
 }
 
 #newsletter button:hover{
@@ -501,30 +524,22 @@ footer a:hover{
   padding: 0;
 }
 
-#icon-network svg{
-  padding: 5% 2%;
-}
-
-
 
 @media (max-width: 425px){
-  #favorites .big-screen{
+  .big-screen{
     display: none;
   }
-  #favorites article{
+  .product{
     margin: 15% auto;
   }
-  #favorites .odd{
+  .odd{
    position: relative;
    right: 10%;
   }
-  #favorites .even{
+  .even{
     position: relative;
     left: 10%;
    }
-   .big-screen{
-    display: none;
-  }
   #newsletter button{
     bottom: 40px;
   }
@@ -533,24 +548,24 @@ footer a:hover{
 
 
 @media (min-width: 426px){
-  #menu-burger{
+  .menu-mobile{
     display: none;
   }
 }
 
 @media (min-width: 768px){
-  aside h2{
+  .annonces h2{
     font-size: 150%;
   }
-  #menu-burger{
+  .menu-mobile{
     display: none;
   }
-  #menu{
+  .menu-desktop{
     justify-content: center;
     position: relative;
     left: 10%;
   }
-  #menu a{
+  .menu-desktop a{
     font-size: 130%;
   }
   .image-container{
@@ -559,56 +574,56 @@ footer a:hover{
   .image-container h2{
     font-size: 200%;
   }
-  #favorites{
+  .favorites{
     width: 70%;
   }
-  #favorites h2{
+  .favorites h2{
     font-size: 50px;
   }
-  #favorites article{
+  .favorites article{
     margin: 5% 1% 8%;
   }
-  #personalization{
+  .personalization{
     display: flex;
     justify-content: center;
     margin: 10% auto;
   }
-  #interview-img{
+  .interview-img{
     width: 440px;
     height: 585px;
     left: 18%;
   }
-  #interview-text{
+  .interview-text{
     width: 373px;
     height: 300px;
     bottom: 0px;
     top: 350px;
     right: 15%;
   }
-  #interview-text h1{
+  .interview-text h1{
     font-size: 23px;
     margin: 5% auto;
     text-align: center;
   }
-  #interview-text p{
+  .interview-text p{
     width: 70%;
     margin: 1% auto;
     line-height: 25px;
     font-size: 18px;
   }
-  #interview-text button{
+  .interview-text button{
     position: relative;
     left: 25%;
     bottom: 5%;
   }
-  #clients-posts h2{
+  .clients-posts h2{
     font-size: 50px;
   }
-  #reinsurance{
+  .reinsurance{
     display: flex;
     justify-content: space-around;
   }
-  #reinsurance h2{
+  .reinsurance h2{
     font-size: 20px;
     padding: 2%;
   }
@@ -619,15 +634,12 @@ footer a:hover{
   footer h3{
     padding-top: 10%;
   }
-  footer section{
+  .footer-section{
     width: 20%;
     margin-left: 0;
   }
   footer ul{
     padding: 0;
-  }
-  footer #social-network{
-    width: 30%;
   }
   #newsletter button{
     bottom: 35px;
@@ -639,47 +651,53 @@ footer a:hover{
     width: 80%;
     margin-right: 0;
   }
-
+  #icon-network{
+    display: flex;
+  }
+  .icon{
+    margin: 0 20%;
+  }
+ 
 }
 
 @media (min-width: 1024px){
-  #brief-joa{
+  .brief-joa{
     width: 50%;
     font-size: 25px;
     line-height: 33px;
   }
-  #favorites{
+  .favorites{
     width: 70%;
   }
-  #interview-img{
+  .interview-img{
     width: 490px;
     height: 682px;
     left: 12%;
   }
-  #interview-text{
+  .interview-text{
     width: 373px;
     height: 400px;
     bottom: 0px;
     top: 250px;
     right: 1%;
   }
-  #interview-text h1{
+  .interview-text h1{
     font-size: 40px;
     margin: 5% auto;
     text-align: center;
   }
-  #interview-text p{
+  .interview-text p{
     width: 70%;
     margin: 1% auto;
     line-height: 25px;
     font-size: 25px;
   }
-  #interview-text button{
+  .interview-text button{
     position: relative;
     left: 25%;
     bottom: 2%;
   }
-  #reinsurance h2{
+  .reinsurance h2{
     font-size: 20px;
     padding: 1%;
   }
@@ -696,33 +714,33 @@ footer a:hover{
 }
 
 @media (min-width: 1025px){
-  #favorites{
+  .favorites{
     width: 60%;
   }
-  #interview-img{
+  .interview-img{
     width: 590px;
     height: 782px;
     left: 8%;
   }
-  #interview-text{
+  .interview-text{
     width: 473px;
     height: 450px;
     bottom: 0px;
     top: 250px;
     right: 1%;
   }
-  #interview-text h1{
+  .interview-text h1{
     font-size: 50px;
     margin: 5% auto;
     text-align: center;
   }
-  #interview-text p{
+  .interview-text p{
     width: 70%;
     margin: 1% auto;
     line-height: 25px;
     font-size: 30px;
   }
-  #interview-text button{
+  .interview-text button{
     position: relative;
     left: 30%;
     bottom: 1%;
@@ -730,7 +748,7 @@ footer a:hover{
   #newsletter button{
     bottom: 45px;
   }
-  #clients-posts{
+  .clients-posts{
     height: 700px;
   }
   .image-slider{
