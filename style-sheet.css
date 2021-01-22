@@ -130,7 +130,7 @@ nav a{
 }
 
 #wedding{
-  background-image: radial-gradient(#FFFFFF, #FF6466), url(wedding.jpg);
+  background-image: radial-gradient(#FFFFFF, #FF6466), url(wedding.webp);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -138,14 +138,14 @@ nav a{
 
 #summer{
   display: none;
-  background-image: radial-gradient(#FFFFFF, #FF6466), url(watermelon.jpg);
+  background-image: radial-gradient(#FFFFFF, #FF6466), url(watermelon.webp);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
 }
 
 #hero-image h2{
-  text-shadow: 1px 1px 8px black;
+  text-shadow: 0.5px 0.5px 5px black;
 }
 
 #brief-joa{
@@ -223,55 +223,55 @@ nav a{
 }
 
 #product1{
-  background-image: url(bague-inspiration-celtique.png);
+  background-image: url(bague-inspiration-celtique.webp);
   background-size: cover;
   background-position: 50% 20px;
 }
 
 #product2{
-  background-image: url(bracelet-pandora-harrypotter.png);
+  background-image: url(bracelet-pandora-harrypotter.webp);
   background-size: cover;
   background-position: 50% 30px;
 }
 
 #product3{
-  background-image: url(montre-homme-cluse.png);
+  background-image: url(montre-homme-cluse.webp);
   background-size: cover;
   background-position: 80% 50%;
 }
 
 #product4{
-  background-image: url(collier-guess-getlucky.png);
+  background-image: url(collier-guess-getlucky.webp);
   background-size: cover;
   background-position: center;
 }
 
 #product5{
-  background-image: url(montre-fossil-femme.png);
+  background-image: url(montre-fossil-femme.webp);
   background-size: cover;
   background-position: 50% 35px;
 }
 
 #product6{
-  background-image: url(boucles-oreilles-coeurdelion.png);
+  background-image: url(boucles-oreilles-coeurdelion.webp);
   background-size: cover;
   background-position: 50% 30px;
 }
 
 #product7{
-  background-image: url(ensemble-coeur-de-lion.png);
+  background-image: url(ensemble-coeur-de-lion.webp);
   background-size: cover;
   background-position: 50% 30px;
 }
 
 #product8{
-  background-image: url(bague-ethnique.png);
+  background-image: url(bague-ethnique.webp);
   background-size: cover;
   background-position: 50% 25px;
 }
 
 #product9{
-  background-image: url(montre-calvinklein.png);
+  background-image: url(montre-calvinklein.webp);
   background-size: cover;
   background-position: 50% 50px;
 }
@@ -305,7 +305,7 @@ nav a{
 #interview-img{
   width: 290px;
   height: 385px;
-  background-image: url(interview.jpg);
+  background-image: url(interview.webp);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -435,6 +435,7 @@ footer a:hover{
   font-family: "futura-pt",sans-serif;
   font-weight: 400;
   font-style: normal;
+  outline: none;
 }
 
 #newsletter button{
@@ -447,7 +448,12 @@ footer a:hover{
   font-size: 20px;
   position: relative;
   left: 70%;
-  bottom: 41px;
+  outline: none;
+}
+
+#newsletter button:hover{
+  cursor: pointer;
+  color: black;
 }
 
 #réseaux h3{
@@ -478,7 +484,7 @@ footer a:hover{
     display: none;
   }
   #newsletter button{
-    bottom: 45px;
+    bottom: 40px;
   }
 
 }
