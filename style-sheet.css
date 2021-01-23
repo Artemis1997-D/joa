@@ -42,6 +42,10 @@ button{
   outline: none;
 }
 
+a{
+  cursor: pointer;
+}
+
 h2{
   font-family: "cooper-black-std",serif;
   margin: 0;
@@ -107,10 +111,6 @@ nav svg{
   cursor: pointer;
 }
 
-nav a{
-  cursor: pointer;
-}
-
 .number-articles{
   font-family: "futura-pt-bold",sans-serif;
   position: relative;
@@ -134,7 +134,7 @@ nav a{
   width: 100%;
 }
 
-.image-container button{
+.btn-link{
   height: 130px;
   width: 130px;
   font-family: "futura-pt-bold",sans-serif;
@@ -147,7 +147,7 @@ nav a{
   border: none;
 }
 
-.image-container button:hover{
+.btn-link:hover{
   cursor: pointer;
   background-color: white;
   color: #FC5456;
@@ -350,7 +350,7 @@ nav a{
   line-height: 25px;
 }
 
-.interview-text span{
+span{
   color: #FC5456;
 }
 
@@ -381,7 +381,7 @@ nav a{
   width: 100%;
   flex-direction: column;
   background-color: #ffe5e4;
-  height: 500px;
+  height: 600px;
 }
 
 .clients-posts h2{
@@ -464,11 +464,11 @@ footer a:hover{
   color: black;
 }
 
-#newsletter label{
+label{
   font-family: "futura-pt-bold",sans-serif;
 }
 
-#newsletter input{
+input{
   background-color: transparent;
   border: white solid 3px;
   color: white;
@@ -481,7 +481,7 @@ footer a:hover{
   outline: none;
 }
 
-#newsletter button{
+.btn-send{
   background-color: transparent;
   color: white;
   border: none;
@@ -492,7 +492,7 @@ footer a:hover{
   outline: none;
 }
 
-#newsletter button:hover{
+.btn-send:hover{
   cursor: pointer;
   color: black;
 }
@@ -517,7 +517,7 @@ footer a:hover{
     position: relative;
     left: 10%;
    }
-  #newsletter button{
+  .btn-send{
     bottom: 40px;
   }
 
@@ -596,6 +596,10 @@ footer a:hover{
   .clients-posts h2{
     font-size: 50px;
   }
+  .image-slider{
+    width: 80%;
+    margin-right: 0;
+  }
   .reinsurance{
     display: flex;
     justify-content: space-around;
@@ -618,15 +622,8 @@ footer a:hover{
   footer ul{
     padding: 0;
   }
-  #newsletter button{
+  .btn-send{
     bottom: 35px;
-  }
-  #clients-posts{
-    height: 600px;
-  }
-  .image-slider{
-    width: 80%;
-    margin-right: 0;
   }
   #icon-network{
     display: flex;
@@ -674,6 +671,10 @@ footer a:hover{
     left: 25%;
     bottom: 2%;
   }
+  .image-slider{
+    width: 70%;
+    margin-right: 0;
+  }
   .reinsurance h2{
     font-size: 20px;
     padding: 1%;
@@ -681,12 +682,8 @@ footer a:hover{
   footer h3{
     padding-top: 1%;
   }
-  #newsletter button{
+  .btn-send{
     bottom: 40px;
-  }
-  .image-slider{
-    width: 70%;
-    margin-right: 0;
   }
 }
 
@@ -722,9 +719,6 @@ footer a:hover{
     left: 30%;
     bottom: 1%;
   }
-  #newsletter button{
-    bottom: 45px;
-  }
   .clients-posts{
     height: 700px;
   }
@@ -732,4 +726,8 @@ footer a:hover{
     width: 80%;
     margin-right: 0;
   }
+  .btn-send{
+    bottom: 45px;
+  }
+  
 }
